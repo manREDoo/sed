@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+//启动定时器
+@EnableScheduling
 public class TaskApplication {
 
 	public static void main(String[] args) {
